@@ -132,7 +132,9 @@ def evaluate(labels, predictions):
     representing the "true negative rate": the proportion of
     actual negative labels that were accurately identified.
     """
+    # Sensitivity is the true positive rate
     sensitivity = float(0)
+    # specificity is the true negative rate
     specificity = float(0)
 
     # Count total completed purchases and total non-purchases
